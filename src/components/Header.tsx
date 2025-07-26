@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+    <header className="bg-background/80 backdrop-blur-glass border-b border-primary/10 sticky top-0 z-50 shadow-card">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img 
@@ -20,7 +20,7 @@ const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
         
-        <Button variant="outline" className="hidden md:inline-flex">
+        <Button variant="luxury" className="hidden md:inline-flex">
           Get Quote
         </Button>
       </div>

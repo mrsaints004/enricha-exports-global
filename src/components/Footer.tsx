@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-earth text-earth-light">
+    <footer className="bg-gradient-luxury text-luxury-light relative overflow-hidden">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
@@ -8,7 +8,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/4ca609f3-1c49-4e12-9cf4-c1f6250aa748.png" 
                 alt="ENRICHA Logo" 
-                className="h-8 w-auto brightness-0 invert"
+                className="h-8 w-auto"
               />
               <span className="text-2xl font-bold">ENRICHA</span>
             </div>
