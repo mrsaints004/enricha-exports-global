@@ -8,14 +8,14 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/90 to-background/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Premium Agricultural 
-            <span className="bg-gradient-primary bg-clip-text text-transparent block">Exports Worldwide</span>
+            <span className="text-primary block">Exports Worldwide</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
@@ -27,7 +27,7 @@ const Hero = () => {
             <Button variant="hero" size="lg">
               View Our Products
             </Button>
-            <Button variant="glass" size="lg">
+            <Button variant="outline" size="lg">
               Request Catalog
             </Button>
           </div>

@@ -36,13 +36,7 @@ export default {
 				},
 				earth: {
 					DEFAULT: 'hsl(var(--earth))',
-					light: 'hsl(var(--earth-light))',
-					medium: 'hsl(var(--earth-medium))'
-				},
-				luxury: {
-					DEFAULT: 'hsl(var(--luxury))',
-					light: 'hsl(var(--luxury-light))',
-					accent: 'hsl(var(--luxury-accent))'
+					light: 'hsl(var(--earth-light))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -74,21 +68,6 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
-			},
-			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-luxury': 'var(--gradient-luxury)',
-				'gradient-card': 'var(--gradient-card)'
-			},
-			boxShadow: {
-				'elegant': 'var(--shadow-elegant)',
-				'luxury': 'var(--shadow-luxury)',
-				'card': 'var(--shadow-card)',
-				'glow': 'var(--shadow-glow)'
-			},
-			backdropBlur: {
-				'glass': 'var(--blur-glass)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

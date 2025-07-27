@@ -3,7 +3,7 @@ import { CheckCircle, Globe, Shield, Truck } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-background relative overflow-hidden">
+    <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -43,9 +43,9 @@ const About = () => {
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <Card className="text-center p-6 hover:shadow-card transition-all duration-300 group hover:-translate-y-2 bg-gradient-card border-primary/10">
+            <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <Globe className="h-12 w-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <Globe className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Global Reach</h3>
                 <p className="text-muted-foreground">
                   Exporting to over 50 countries worldwide with established logistics networks.
@@ -53,9 +53,9 @@ const About = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center p-6 hover:shadow-card transition-all duration-300 group hover:-translate-y-2 bg-gradient-card border-primary/10">
+            <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <Shield className="h-12 w-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Quality Assurance</h3>
                 <p className="text-muted-foreground">
                   Rigorous quality control processes ensure premium products every time.
@@ -63,9 +63,9 @@ const About = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center p-6 hover:shadow-card transition-all duration-300 group hover:-translate-y-2 bg-gradient-card border-primary/10">
+            <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <Truck className="h-12 w-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <Truck className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Reliable Logistics</h3>
                 <p className="text-muted-foreground">
                   Efficient supply chain management for timely delivery worldwide.
@@ -73,9 +73,9 @@ const About = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center p-6 hover:shadow-card transition-all duration-300 group hover:-translate-y-2 bg-gradient-card border-primary/10">
+            <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Sustainable Practices</h3>
                 <p className="text-muted-foreground">
                   Supporting local farmers with sustainable and ethical sourcing.

@@ -8,50 +8,35 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 99%;
-    --foreground: 25 30% 10%;
+    --background: 0 0% 100%;
+    --foreground: 25 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 30% 10%;
+    --card-foreground: 25 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 30% 10%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 150 75% 40%;
-    --primary-foreground: 0 0% 100%;
-    --primary-light: 150 65% 55%;
-    --primary-dark: 150 85% 25%;
-    --primary-glow: 150 85% 60%;
+    --primary: 150 65% 45%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 150 55% 55%;
+    --primary-dark: 150 75% 35%;
 
-    --secondary: 35 30% 88%;
-    --secondary-foreground: 25 30% 15%;
+    --secondary: 35 25% 85%;
+    --secondary-foreground: 25 25% 15%;
 
-    --muted: 35 20% 95%;
-    --muted-foreground: 25 25% 40%;
+    --muted: 35 15% 92%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 35 45% 70%;
-    --accent-foreground: 25 30% 10%;
+    --accent: 35 35% 75%;
+    --accent-foreground: 25 25% 15%;
     
-    --earth: 30 35% 20%;
-    --earth-light: 30 20% 90%;
-    --earth-medium: 30 25% 70%;
-    
-    --luxury: 45 20% 15%;
-    --luxury-light: 45 15% 95%;
-    --luxury-accent: 45 60% 45%;
+    --earth: 30 25% 25%;
+    --earth-light: 30 15% 85%;
     
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--background) / 0.8) 100%);
-    --gradient-luxury: linear-gradient(135deg, hsl(var(--luxury)) 0%, hsl(var(--earth)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(var(--background)) 0%, hsl(var(--muted) / 0.3) 100%);
-    
-    --shadow-elegant: 0 20px 60px -10px hsl(var(--primary) / 0.15);
-    --shadow-luxury: 0 25px 80px -15px hsl(var(--luxury) / 0.4);
-    --shadow-card: 0 4px 20px -2px hsl(var(--primary) / 0.08);
-    --shadow-glow: 0 0 50px hsl(var(--primary-glow) / 0.3);
-    
-    --blur-glass: blur(20px);
-    --border-glass: 1px solid hsl(var(--primary) / 0.1);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.1), hsl(var(--earth) / 0.05));
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.2);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;

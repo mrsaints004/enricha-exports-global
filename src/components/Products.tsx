@@ -33,7 +33,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section id="products" className="py-20 bg-gradient-card relative">
+    <section id="products" className="py-20 bg-earth-light">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -47,12 +47,12 @@ const Products = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
-            <Card key={index} className="group hover:shadow-luxury transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 bg-card/80 backdrop-blur-sm border border-primary/10">
+            <Card key={index} className="group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2">
               <div className="aspect-square overflow-hidden rounded-t-lg">
                 <img 
                   src={product.image} 
                   alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-115 transition-transform duration-700"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
